@@ -9,13 +9,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff8927cfcc2ff50448314fe78e8b7c62, type: 3}
-  m_Name: Player
+  m_Script: {fileID: 11500000, guid: 73cb4b67c04069645963bc3842056a65, type: 3}
+  m_Name: EnemySO
   m_EditorClassIdentifier: 
+  <PlayerChasingRange>k__BackingField: 10
+  <AttackRange>k__BackingField: 1.5
+  <ForceTransitionTime>k__BackingField: 0
+  <Force>k__BackingField: 0
+  <Damage>k__BackingField: 0
+  <Dealing_Start_TransitionTime>k__BackingField: 0
+  <Dealing_End_TransitionTime>k__BackingField: 0
   <GroundedData>k__BackingField:
     <BaseSpeed>k__BackingField: 5
-    <BaseRotationDamping>k__BackingField: 8
+    <BaseRotationDamping>k__BackingField: 1
     <WalkSpeedModifier>k__BackingField: 0.225
     <RunSpeedModifier>k__BackingField: 1
-  <AirData>k__BackingField:
-    <JumpForce>k__BackingField: 4
