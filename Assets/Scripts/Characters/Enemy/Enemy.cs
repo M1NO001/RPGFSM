@@ -9,7 +9,7 @@ public class Enemy : MonoBehaviour
 
     [field: Header("Animations")]
     [field: SerializeField] public PlayerAnimationData AnimationData { get; private set; }
-    [field: SerializeField] public Weapon Weapon { get; private set; }
+
 
     public Rigidbody Rigidbody { get; private set; }
     public Animator Animator { get; private set; }
@@ -18,6 +18,7 @@ public class Enemy : MonoBehaviour
 
     
     public CharacterHealth CharacterHealth { get; private set; }
+    [field: SerializeField] public Weapon Weapon { get; private set; }
 
     private EnemyStateMachine stateMachine;
 
